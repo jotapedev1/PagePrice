@@ -22,3 +22,136 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.next
+pom.xml.bak
+
+############################
+# JAVA / SPRING
+############################
+
+# Compilados
+*.class
+*.log
+*.ctxt
+
+# Build
+target/
+build/
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+
+############################
+# IDEs
+############################
+
+# IntelliJ
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VSCode
+.vscode/
+
+############################
+# SISTEMA OPERACIONAL
+############################
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+############################
+# NODE / REACT
+############################
+
+node_modules/
+
+# build do react
+dist/
+build/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+############################
+# ENVIRONMENT
+############################
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+############################
+# CACHE
+############################
+
+.cache/
+*.cache
+
+############################
+# MONGO LOCAL
+############################
+
+/data/db/
+
+############################
+# OUTPUTS
+############################
+
+out/
+tmp/
+temp/
