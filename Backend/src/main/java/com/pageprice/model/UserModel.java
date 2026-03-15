@@ -1,15 +1,21 @@
 package com.pageprice.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection = "Store")
-public class StoreModel {
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Document(collection = "User")
+public class UserModel {
     @Id
     private Integer id;
+
     private String name;
-    private String url;
-    private boolean active;
+    
 
 
 }

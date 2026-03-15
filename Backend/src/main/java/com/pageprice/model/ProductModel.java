@@ -17,7 +17,7 @@ import java.util.List;
 @CompoundIndex(def = "{'titulo': 'text'}")  // Índice de texto para busca
 public class ProductModel {
     @Id
-    private String id;
+    private Integer id;
     @TextIndexed
     private String title;
 

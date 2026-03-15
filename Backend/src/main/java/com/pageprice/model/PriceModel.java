@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
 @Document(collection = "Price")
 public class PriceModel {
     @Id
-    private String id;
+    private Integer id;
 
     @Field(name="productId")
     private String productId;  //reference the product
